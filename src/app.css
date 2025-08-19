@@ -1,0 +1,12 @@
+@import '@fontsource/poppins';
+@import 'tailwindcss';
+
+
+@plugin "daisyui" {
+	themes: sunset --default;
+}
+
+
+:root {
+  font-family: 'Poppins', sans-serif;
+}
