@@ -35,9 +35,11 @@
 				<!-- Desktop Navigation -->
 				<div class="hidden lg:flex">
 					<ul class="menu menu-horizontal">
-						<li><a href="/auth">Sign In</a></li>
-						<li><a href="/account">Account</a></li>
-						<li><a href="#top">Privacy</a></li>
+						<li><a href="/auth">Web</a></li>
+						<li><a href="3D">3D Solutions</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/contact">Contact</a></li>
+						<li><a href="/blog">Blog</a></li>
 					</ul>
 				</div>
 			</div>
@@ -68,10 +70,11 @@
 					<span class="text-md font-semibold">Menu</span>
 				</div>
 				<ul class="menu rounded-box bg-base-100 space-y-1">
-					<li><a href="/auth">Sign In</a></li>
-					<li><a href="/account">Account</a></li>
-					<li><a href="#top">Contact</a></li>
-					<li><a href="#top">Privacy</a></li>
+						<li><a href="/auth">Web</a></li>
+						<li><a href="3D">3D Solutions</a></li>
+						<li><a href="/about">About</a></li>
+						<li><a href="/contact">Contact</a></li>
+						<li><a href="/blog">Blog</a></li>
 				</ul>
 			</div>
 		</aside>

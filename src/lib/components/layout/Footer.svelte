@@ -1,7 +1,7 @@
 <!-- Footer -->
 <footer class="footer footer-center bg-base-300 text-base-content flex flex-col p-10">
 	<div>
-		<p class="font-bold">Company Name</p>
+		<p class="font-bold">Zenzak Animation</p>
 		<p>Copyright © 2025 - All rights reserved</p>
 	</div>
 	<div>

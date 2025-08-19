@@ -1,42 +1,32 @@
 <script lang="ts">
 	import { fade, fly } from 'svelte/transition';
 	import { ChartBar, Lightbulb, TrendingUp, ChevronRight } from '@lucide/svelte';
+	import jessicaImg from '$lib/assets/jessica.avif';
+	import heroVideo from '$lib/assets/bg.webm';
 
 	const testimonials = [
 		{
-			name: 'Sarah Johnson',
-			role: 'CEO, TechCorp',
-			image: 'https://i.pravatar.cc/150?img=1',
+			name: 'Jessica',
+			role: 'Founder, Jelly Peanut',
+			image: jessicaImg,
 			content:
-				'Working with this team has transformed our business. The results speak for themselves.'
+				"Zenzak made our eCommerce site's database easy to maintain and edit quickly."
 		},
-		{
-			name: 'Michael Chen',
-			role: 'Director, Innovation Labs',
-			image: 'https://i.pravatar.cc/150?img=2',
-			content: 'Exceptional service and outstanding results. Highly recommended!'
-		},
-		{
-			name: 'Emma Williams',
-			role: 'Operations Manager',
-			image: 'https://i.pravatar.cc/150?img=3',
-			content: 'The attention to detail and professional approach made all the difference.'
-		}
 	];
 
 	const services = [
 		{
-			title: 'Strategic Planning',
+			title: 'Product Visualisation & Renders',
 			description: 'Custom strategies tailored to your business goals and market position.',
 			icon: ChartBar
 		},
 		{
-			title: 'Innovation Consulting',
+			title: 'Web & Design Consulting',
 			description: 'Transform your ideas into actionable business solutions.',
 			icon: Lightbulb
 		},
 		{
-			title: 'Growth Solutions',
+			title: 'Technical & Explainer Animations',
 			description: 'Scale your business with data-driven growth strategies.',
 			icon: TrendingUp
 		}
@@ -50,13 +40,13 @@
 			<div class="grid min-h-[70vh] w-full items-center gap-12 md:min-h-[60vh] lg:grid-cols-2">
 				<div class="order-2 lg:order-1" in:fade={{ duration: 1000 }}>
 					<h1 class="text-center text-4xl leading-tight font-bold lg:text-left lg:text-6xl">
-						Innovate.<br />
-						Transform.<br />
-						Succeed.
+						Innovative Visualization.<br />
+						Web & Design Consulting.<br />
+						Immersive 3D.
 					</h1>
 					<p class="text-base-content/80 mt-6 text-center text-lg lg:text-left">
-						We help businesses grow through strategic consulting, innovative solutions, and proven
-						methodologies. Let's build your success story together.
+						We help businesses grow through design consulting, innovative visualization solutions, and immersive 3D
+						experiences. Let's build your success story together.
 					</p>
 					<div
 						class="mt-8 flex flex-col items-center justify-center gap-4 lg:flex-row lg:justify-start"
@@ -69,8 +59,8 @@
 					<div class="relative lg:w-[90%] 2xl:w-[80%]">
 						<div class="bg-base-300 aspect-square overflow-hidden rounded-lg">
 							<img
-								src="https://placehold.co/600x600"
-								alt="Placeholder"
+								src=""
+								alt="Portfolio Video"
 								class="h-full w-full object-cover"
 							/>
 						</div>
@@ -89,7 +79,7 @@
 			<div class="mb-12 text-center">
 				<h2 class="text-4xl font-bold" in:fade>Our Services</h2>
 				<p class="text-base-content/70 mt-4">
-					Comprehensive solutions to drive your business forward
+					Comprehensive visual solutions to drive your business forward
 				</p>
 			</div>
 			<div class="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
