@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { fade, fly } from 'svelte/transition';
-	import { ChartBar, Lightbulb, TrendingUp, ChevronRight } from '@lucide/svelte';
+	import { PackageCheck, Lightbulb, LampDesk, ChevronRight } from '@lucide/svelte';
 	import jessicaImg from '$lib/assets/jessica.avif';
 	import heroVideo from '$lib/assets/bg.webm';
 
@@ -10,7 +10,7 @@
 			role: 'Founder, Jelly Peanut',
 			image: jessicaImg,
 			content:
-				"Zenzak made our eCommerce site's database easy to maintain and edit quickly."
+				"Zenzak made Jelly Peanut's database easy to maintain and edit quickly."
 		},
 	];
 
@@ -18,7 +18,7 @@
 		{
 			title: 'Product Visualisation & Renders',
 			description: 'Custom strategies tailored to your business goals and market position.',
-			icon: ChartBar
+			icon: LampDesk
 		},
 		{
 			title: 'Web & Design Consulting',
@@ -28,7 +28,7 @@
 		{
 			title: 'Technical & Explainer Animations',
 			description: 'Scale your business with data-driven growth strategies.',
-			icon: TrendingUp
+			icon: PackageCheck
 		}
 	];
 </script>
